@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color:#EEEEEE;
+}
+.todolist{
+  background-color:#FFF;
+  padding:20px 20px 10px 20px;
+  margin-top:30px;
+}
+.todolist h1{
+  margin:0;
+  padding-bottom:20px;
+  text-align:center;
+}
+.form-control{
+  border-radius:0;
+}
+li.ui-state-default{
+  background:#fff;
+  border:none;
+  border-bottom:1px solid #ddd;
+  margin-bottom: 12px;
+}
+li.ui-state-default input{
+  margin-right: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li.ui-state-default:last-child{
+  border-bottom:none;
+}
+
+.todo-footer{
+  background-color:#F4FCE8;
+  margin:0 -20px -10px -20px;
+  padding: 10px 20px;
+}
+#done-items li{
+  padding:10px 0;
+  border-bottom:1px solid #ddd;
+  text-decoration:line-through;
+}
+#done-items li:last-child{
+  border-bottom:none;
+}
+#checkAll{
+  margin-top:10px;
 }
